@@ -1,0 +1,125 @@
+{
+  "credit": "Create: Air Logistics - Airship Cargo Hold, open (5px-deep stave cargo bay, lid swung 45 deg on north hinge)",
+  "parent": "minecraft:block/block",
+  "render_type": "minecraft:solid",
+  "textures": {
+    "side": "create_air_logistics:block/airship_cargo_hold_side",
+    "bottom": "create_air_logistics:block/airship_cargo_hold_bottom",
+    "top_rim": "create_air_logistics:block/airship_cargo_hold_top_rim",
+    "hatch": "create_air_logistics:block/airship_cargo_hold_hatch",
+    "interior": "create_air_logistics:block/airship_cargo_hold_interior",
+    "particle": "create_air_logistics:block/airship_cargo_hold_side"
+  },
+  "elements": [
+    {
+      "name": "lower_body",
+      "from": [0, 0, 0],
+      "to": [16, 11, 16],
+      "faces": {
+        "north": {"uv": [0, 5, 16, 16], "texture": "#side", "cullface": "north"},
+        "east": {"uv": [0, 5, 16, 16], "texture": "#side", "cullface": "east"},
+        "south": {"uv": [0, 5, 16, 16], "texture": "#side", "cullface": "south"},
+        "west": {"uv": [0, 5, 16, 16], "texture": "#side", "cullface": "west"},
+        "up": {"uv": [0, 0, 16, 16], "texture": "#interior"},
+        "down": {"uv": [0, 0, 16, 16], "texture": "#bottom", "cullface": "down"}
+      }
+    },
+    {
+      "name": "rim_north",
+      "from": [0, 11, 0],
+      "to": [16, 16, 2],
+      "faces": {
+        "north": {"uv": [0, 0, 16, 5], "texture": "#side", "cullface": "north"},
+        "east": {"uv": [14, 0, 16, 5], "texture": "#side", "cullface": "east"},
+        "south": {"uv": [0, 11, 16, 16], "texture": "#interior"},
+        "west": {"uv": [0, 0, 2, 5], "texture": "#side", "cullface": "west"},
+        "up": {"uv": [0, 0, 16, 2], "texture": "#top_rim", "cullface": "up"}
+      }
+    },
+    {
+      "name": "rim_south",
+      "from": [0, 11, 14],
+      "to": [16, 16, 16],
+      "faces": {
+        "north": {"uv": [0, 11, 16, 16], "texture": "#interior"},
+        "east": {"uv": [0, 0, 2, 5], "texture": "#side", "cullface": "east"},
+        "south": {"uv": [0, 0, 16, 5], "texture": "#side", "cullface": "south"},
+        "west": {"uv": [14, 0, 16, 5], "texture": "#side", "cullface": "west"},
+        "up": {"uv": [0, 14, 16, 16], "texture": "#top_rim", "cullface": "up"}
+      }
+    },
+    {
+      "name": "rim_west",
+      "from": [0, 11, 2],
+      "to": [2, 16, 14],
+      "faces": {
+        "east": {"uv": [2, 11, 14, 16], "texture": "#interior"},
+        "west": {"uv": [2, 0, 14, 5], "texture": "#side", "cullface": "west"},
+        "up": {"uv": [0, 2, 2, 14], "texture": "#top_rim", "cullface": "up"}
+      }
+    },
+    {
+      "name": "rim_east",
+      "from": [14, 11, 2],
+      "to": [16, 16, 14],
+      "faces": {
+        "east": {"uv": [2, 0, 14, 5], "texture": "#side", "cullface": "east"},
+        "west": {"uv": [2, 11, 14, 16], "texture": "#interior"},
+        "up": {"uv": [14, 2, 16, 14], "texture": "#top_rim", "cullface": "up"}
+      }
+    },
+    {
+      "name": "hinge_base_west",
+      "from": [3.5, 16, 1.25],
+      "to": [5.5, 17, 2.75],
+      "faces": {
+        "north": {"uv": [3.5, 0, 5.5, 1], "texture": "#hatch"},
+        "east": {"uv": [0, 0, 1.5, 1], "texture": "#hatch"},
+        "south": {"uv": [3.5, 0, 5.5, 1], "texture": "#hatch"},
+        "west": {"uv": [0, 0, 1.5, 1], "texture": "#hatch"},
+        "up": {"uv": [3.5, 0, 5.5, 1.5], "texture": "#hatch"}
+      }
+    },
+    {
+      "name": "hinge_base_east",
+      "from": [10.5, 16, 1.25],
+      "to": [12.5, 17, 2.75],
+      "faces": {
+        "north": {"uv": [10.5, 0, 12.5, 1], "texture": "#hatch"},
+        "east": {"uv": [0, 0, 1.5, 1], "texture": "#hatch"},
+        "south": {"uv": [10.5, 0, 12.5, 1], "texture": "#hatch"},
+        "west": {"uv": [0, 0, 1.5, 1], "texture": "#hatch"},
+        "up": {"uv": [10.5, 0, 12.5, 1.5], "texture": "#hatch"}
+      }
+    },
+    {
+      "name": "hatch_lid_open",
+      "from": [2, 14.5, 2],
+      "to": [14, 16.5, 14],
+      "rotation": {"angle": -45, "axis": "x", "origin": [8, 16.5, 2]},
+      "neoforge_data": {"calculate_normals": true},
+      "faces": {
+        "north": {"uv": [2, 0, 14, 2], "texture": "#hatch"},
+        "east": {"uv": [2, 0, 14, 2], "texture": "#hatch"},
+        "south": {"uv": [2, 0, 14, 2], "texture": "#hatch"},
+        "west": {"uv": [2, 0, 14, 2], "texture": "#hatch"},
+        "up": {"uv": [2, 2, 14, 14], "texture": "#hatch"},
+        "down": {"uv": [2, 2, 14, 14], "texture": "#top_rim"}
+      }
+    },
+    {
+      "name": "hatch_handle_open",
+      "from": [6, 16.5, 11.5],
+      "to": [10, 17.25, 12.5],
+      "rotation": {"angle": -45, "axis": "x", "origin": [8, 16.5, 2]},
+      "neoforge_data": {"calculate_normals": true},
+      "faces": {
+        "north": {"uv": [6, 1, 10, 1.75], "texture": "#hatch"},
+        "east": {"uv": [0, 1, 1, 1.75], "texture": "#hatch"},
+        "south": {"uv": [6, 1, 10, 1.75], "texture": "#hatch"},
+        "west": {"uv": [0, 1, 1, 1.75], "texture": "#hatch"},
+        "up": {"uv": [6, 0, 10, 1], "texture": "#hatch"}
+      }
+    }
+  ]
+}

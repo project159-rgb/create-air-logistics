@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "F": {
+      "item": "minecraft:item_frame"
+    },
+    "B": {
+      "item": "create:brass_sheet"
+    },
+    "P": {
+      "item": "create_air_logistics:boost_propeller"
+    },
+    "M": {
+      "item": "create_air_logistics:mechanical_pathfinder"
+    }
+  },
+  "pattern": [
+    " F ",
+    "BPB",
+    " M "
+  ],
+  "result": {
+    "count": 1,
+    "id": "create_air_logistics:pathfinder_propeller"
+  }
+}

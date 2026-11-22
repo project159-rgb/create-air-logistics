@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "create_air_logistics:block/ship_port" },
+    "facing=south": { "model": "create_air_logistics:block/ship_port", "y": 180 },
+    "facing=west":  { "model": "create_air_logistics:block/ship_port", "y": 270 },
+    "facing=east":  { "model": "create_air_logistics:block/ship_port", "y": 90 }
+  }
+}

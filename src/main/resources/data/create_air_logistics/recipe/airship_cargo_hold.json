@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "P": {
+      "tag": "minecraft:planks"
+    },
+    "H": {
+      "item": "create:item_hatch"
+    },
+    "S": {
+      "item": "create:iron_sheet"
+    },
+    "B": {
+      "tag": "c:barrels/wooden"
+    }
+  },
+  "pattern": [
+    "PHP",
+    "SBS",
+    "PPP"
+  ],
+  "result": {
+    "count": 1,
+    "id": "create_air_logistics:airship_cargo_hold"
+  }
+}

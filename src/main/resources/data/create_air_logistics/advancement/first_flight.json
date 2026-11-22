@@ -1,0 +1,23 @@
+{
+  "parent": "create_air_logistics:chart_course",
+  "display": {
+    "icon": {
+      "id": "create_air_logistics:pathfinder_propeller"
+    },
+    "title": {
+      "translate": "advancement.create_air_logistics.first_flight.title"
+    },
+    "description": {
+      "translate": "advancement.create_air_logistics.first_flight.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "assembled_airship": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

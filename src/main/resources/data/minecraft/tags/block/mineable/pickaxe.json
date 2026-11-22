@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "create_air_logistics:sky_dock",
+    "create_air_logistics:ship_port",
+    "create_air_logistics:airship_cargo_hold",
+    "create_air_logistics:pathfinder_propeller",
+    "create_air_logistics:boost_propeller",
+    "create_air_logistics:pressure_engine",
+    "create_air_logistics:pressure_tank",
+    "create_air_logistics:airship_super_heater"
+  ]
+}

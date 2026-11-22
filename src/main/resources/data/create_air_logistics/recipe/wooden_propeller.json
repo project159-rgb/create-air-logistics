@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "P": {
+      "tag": "minecraft:planks"
+    },
+    "X": {
+      "item": "create:propeller"
+    }
+  },
+  "pattern": [
+    "PPP",
+    "PXP",
+    "PPP"
+  ],
+  "result": {
+    "count": 1,
+    "id": "create_air_logistics:wooden_propeller"
+  }
+}

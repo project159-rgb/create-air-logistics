@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "facing=north": { "model": "create_air_logistics:block/boost_propeller" },
+    "facing=south": { "model": "create_air_logistics:block/boost_propeller", "y": 180 },
+    "facing=west":  { "model": "create_air_logistics:block/boost_propeller", "y": 270 },
+    "facing=east":  { "model": "create_air_logistics:block/boost_propeller", "y": 90 },
+    "facing=up":    { "model": "create_air_logistics:block/boost_propeller", "x": 270 },
+    "facing=down":  { "model": "create_air_logistics:block/boost_propeller", "x": 90 }
+  }
+}

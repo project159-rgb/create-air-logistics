@@ -1,0 +1,136 @@
+{
+  "credit": "Create: Air Logistics - Pressure Engine (Create texture atlas: steam engine + backtank + Flat 3D boiler gauge)",
+  "parent": "minecraft:block/block",
+  "textures": {
+    "engine": "create:block/engine",
+    "tank": "create:block/copper_backtank",
+    "gauge": "create_air_logistics:block/pressure_gauge",
+    "casing": "create:block/copper_casing",
+    "particle": "create:block/copper_casing",
+    "front_port": "create_air_logistics:block/pressure_engine_front",
+    "foot": "create_air_logistics:block/pressure_engine_foot"
+  },
+  "elements": [
+    {
+      "name": "mount_flange",
+      "from": [1, 1, 0],
+      "to": [15, 15, 3],
+      "faces": {
+        "north": {"uv": [1, 1, 15, 15], "texture": "#front_port"},
+        "south": {"uv": [0.5, 8.5, 7.5, 15.5], "texture": "#engine"},
+        "east": {"uv": [0.5, 6.5, 7.5, 8], "rotation": 90, "texture": "#engine"},
+        "west": {"uv": [0.5, 6.5, 7.5, 8], "rotation": 270, "texture": "#engine"},
+        "up": {"uv": [0.5, 6.5, 7.5, 8], "rotation": 180, "texture": "#engine"},
+        "down": {"uv": [0.5, 6.5, 7.5, 8], "texture": "#engine"}
+      }
+    },
+    {
+      "name": "pressure_cylinder",
+      "from": [3, 3, 3],
+      "to": [13, 13, 15],
+      "faces": {
+        "east": {"uv": [1.5, 0.5, 6.5, 6.5], "rotation": 90, "texture": "#engine"},
+        "west": {"uv": [1.5, 0.5, 6.5, 6.5], "rotation": 270, "texture": "#engine"},
+        "up": {"uv": [1.5, 0.5, 6.5, 6.5], "rotation": 180, "texture": "#engine"},
+        "down": {"uv": [1.5, 0.5, 6.5, 6.5], "texture": "#engine"},
+        "south": {"uv": [9.5, 9.5, 14.5, 14.5], "texture": "#engine"}
+      }
+    },
+    {
+      "name": "rear_cap",
+      "from": [4, 4, 15],
+      "to": [12, 12, 16],
+      "faces": {
+        "east": {"uv": [10, 1, 14, 2], "rotation": 90, "texture": "#engine"},
+        "west": {"uv": [10, 1, 14, 2], "rotation": 90, "texture": "#engine"},
+        "up": {"uv": [10, 1, 14, 2], "texture": "#engine"},
+        "down": {"uv": [10, 1, 14, 2], "texture": "#engine"},
+        "south": {"uv": [10, 2, 14, 6], "texture": "#engine"}
+      }
+    },
+    {
+      "name": "air_bottle",
+      "from": [5, 13, 5],
+      "to": [11, 16, 13],
+      "faces": {
+        "north": {"uv": [8.5, 1, 11.5, 2.5], "texture": "#tank"},
+        "south": {"uv": [4.5, 1, 7.5, 2.5], "texture": "#tank"},
+        "east": {"uv": [4.5, 1, 7.5, 2.5], "texture": "#tank"},
+        "west": {"uv": [4.5, 1, 7.5, 2.5], "texture": "#tank"},
+        "up": {"uv": [0.5, 6.5, 3.5, 9.5], "texture": "#tank"}
+      }
+    },
+    {
+      "name": "gauge_casing_east",
+      "from": [13, 6, 6],
+      "to": [14.2, 12, 12],
+      "faces": {
+        "east": {"uv": [0.5, 8.5, 7.5, 15.5], "texture": "#gauge"},
+        "north": {"uv": [10.5, 8.5, 12, 15.5], "texture": "#gauge"},
+        "south": {"uv": [12, 8.5, 10.5, 15.5], "texture": "#gauge"},
+        "up": {"uv": [10, 8.5, 8.5, 15.5], "rotation": 90, "texture": "#gauge"},
+        "down": {"uv": [12.5, 8.5, 14, 15.5], "rotation": 90, "texture": "#gauge"}
+      }
+    },
+    {
+      "name": "gauge_casing_west",
+      "from": [1.8, 6, 6],
+      "to": [3, 12, 12],
+      "faces": {
+        "west": {"uv": [0.5, 8.5, 7.5, 15.5], "texture": "#gauge"},
+        "north": {"uv": [12, 8.5, 10.5, 15.5], "texture": "#gauge"},
+        "south": {"uv": [10.5, 8.5, 12, 15.5], "texture": "#gauge"},
+        "up": {"uv": [10, 8.5, 8.5, 15.5], "rotation": 90, "texture": "#gauge"},
+        "down": {"uv": [12.5, 8.5, 14, 15.5], "rotation": 90, "texture": "#gauge"}
+      }
+    },
+    {
+      "name": "foot_west_leg",
+      "from": [3.5, 1, 11.5],
+      "to": [5.5, 3, 13.5],
+      "faces": {
+        "north": {"uv": [4, 0, 12, 8], "texture": "#foot"},
+        "south": {"uv": [4, 0, 12, 8], "texture": "#foot"},
+        "east": {"uv": [4, 0, 12, 8], "texture": "#foot"},
+        "west": {"uv": [4, 0, 12, 8], "texture": "#foot"}
+      }
+    },
+    {
+      "name": "foot_west_pad",
+      "from": [2.5, 0, 10.5],
+      "to": [6.5, 1, 14.5],
+      "faces": {
+        "up": {"uv": [0, 8, 8, 16], "texture": "#foot"},
+        "down": {"uv": [0, 8, 8, 16], "texture": "#foot", "cullface": "down"},
+        "north": {"uv": [8, 8, 16, 16], "texture": "#foot"},
+        "south": {"uv": [8, 8, 16, 16], "texture": "#foot"},
+        "east": {"uv": [8, 8, 16, 16], "texture": "#foot"},
+        "west": {"uv": [8, 8, 16, 16], "texture": "#foot"}
+      }
+    },
+    {
+      "name": "foot_east_leg",
+      "from": [10.5, 1, 11.5],
+      "to": [12.5, 3, 13.5],
+      "faces": {
+        "north": {"uv": [4, 0, 12, 8], "texture": "#foot"},
+        "south": {"uv": [4, 0, 12, 8], "texture": "#foot"},
+        "east": {"uv": [4, 0, 12, 8], "texture": "#foot"},
+        "west": {"uv": [4, 0, 12, 8], "texture": "#foot"}
+      }
+    },
+    {
+      "name": "foot_east_pad",
+      "from": [9.5, 0, 10.5],
+      "to": [13.5, 1, 14.5],
+      "faces": {
+        "up": {"uv": [0, 8, 8, 16], "texture": "#foot"},
+        "down": {"uv": [0, 8, 8, 16], "texture": "#foot", "cullface": "down"},
+        "north": {"uv": [8, 8, 16, 16], "texture": "#foot"},
+        "south": {"uv": [8, 8, 16, 16], "texture": "#foot"},
+        "east": {"uv": [8, 8, 16, 16], "texture": "#foot"},
+        "west": {"uv": [8, 8, 16, 16], "texture": "#foot"}
+      }
+    }
+  ]
+}

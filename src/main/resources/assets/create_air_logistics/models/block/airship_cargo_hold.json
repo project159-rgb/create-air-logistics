@@ -1,0 +1,114 @@
+{
+  "credit": "Create: Air Logistics - Airship Cargo Hold, closed (iron-bound spruce freight crate)",
+  "parent": "minecraft:block/block",
+  "render_type": "minecraft:solid",
+  "textures": {
+    "side": "create_air_logistics:block/airship_cargo_hold_side",
+    "bottom": "create_air_logistics:block/airship_cargo_hold_bottom",
+    "top_rim": "create_air_logistics:block/airship_cargo_hold_top_rim",
+    "hatch": "create_air_logistics:block/airship_cargo_hold_hatch",
+    "interior": "create_air_logistics:block/airship_cargo_hold_interior",
+    "particle": "create_air_logistics:block/airship_cargo_hold_side"
+  },
+  "elements": [
+    {
+      "name": "lower_body",
+      "from": [0, 0, 0],
+      "to": [16, 11, 16],
+      "faces": {
+        "north": {"uv": [0, 5, 16, 16], "texture": "#side", "cullface": "north"},
+        "east": {"uv": [0, 5, 16, 16], "texture": "#side", "cullface": "east"},
+        "south": {"uv": [0, 5, 16, 16], "texture": "#side", "cullface": "south"},
+        "west": {"uv": [0, 5, 16, 16], "texture": "#side", "cullface": "west"},
+        "up": {"uv": [0, 0, 16, 16], "texture": "#interior"},
+        "down": {"uv": [0, 0, 16, 16], "texture": "#bottom", "cullface": "down"}
+      }
+    },
+    {
+      "name": "rim_north",
+      "from": [0, 11, 0],
+      "to": [16, 16, 2],
+      "faces": {
+        "north": {"uv": [0, 0, 16, 5], "texture": "#side", "cullface": "north"},
+        "east": {"uv": [14, 0, 16, 5], "texture": "#side", "cullface": "east"},
+        "south": {"uv": [0, 11, 16, 16], "texture": "#interior"},
+        "west": {"uv": [0, 0, 2, 5], "texture": "#side", "cullface": "west"},
+        "up": {"uv": [0, 0, 16, 2], "texture": "#top_rim", "cullface": "up"}
+      }
+    },
+    {
+      "name": "rim_south",
+      "from": [0, 11, 14],
+      "to": [16, 16, 16],
+      "faces": {
+        "north": {"uv": [0, 11, 16, 16], "texture": "#interior"},
+        "east": {"uv": [0, 0, 2, 5], "texture": "#side", "cullface": "east"},
+        "south": {"uv": [0, 0, 16, 5], "texture": "#side", "cullface": "south"},
+        "west": {"uv": [14, 0, 16, 5], "texture": "#side", "cullface": "west"},
+        "up": {"uv": [0, 14, 16, 16], "texture": "#top_rim", "cullface": "up"}
+      }
+    },
+    {
+      "name": "rim_west",
+      "from": [0, 11, 2],
+      "to": [2, 16, 14],
+      "faces": {
+        "east": {"uv": [2, 11, 14, 16], "texture": "#interior"},
+        "west": {"uv": [2, 0, 14, 5], "texture": "#side", "cullface": "west"},
+        "up": {"uv": [0, 2, 2, 14], "texture": "#top_rim", "cullface": "up"}
+      }
+    },
+    {
+      "name": "rim_east",
+      "from": [14, 11, 2],
+      "to": [16, 16, 14],
+      "faces": {
+        "east": {"uv": [2, 0, 14, 5], "texture": "#side", "cullface": "east"},
+        "west": {"uv": [2, 11, 14, 16], "texture": "#interior"},
+        "up": {"uv": [14, 2, 16, 14], "texture": "#top_rim", "cullface": "up"}
+      }
+    },
+    {
+      "name": "hatch_lid",
+      "from": [2, 13, 2],
+      "to": [14, 15, 14],
+      "faces": {
+        "up": {"uv": [2, 2, 14, 14], "texture": "#hatch"}
+      }
+    },
+    {
+      "name": "hatch_handle",
+      "from": [6, 15, 11.5],
+      "to": [10, 15.75, 12.5],
+      "faces": {
+        "north": {"uv": [6, 1, 10, 1.75], "texture": "#hatch"},
+        "east": {"uv": [0, 1, 1, 1.75], "texture": "#hatch"},
+        "south": {"uv": [6, 1, 10, 1.75], "texture": "#hatch"},
+        "west": {"uv": [0, 1, 1, 1.75], "texture": "#hatch"},
+        "up": {"uv": [6, 0, 10, 1], "texture": "#hatch"}
+      }
+    },
+    {
+      "name": "hinge_west",
+      "from": [3.5, 15, 1.75],
+      "to": [5.5, 15.75, 2.75],
+      "faces": {
+        "east": {"uv": [0, 1, 1, 1.75], "texture": "#hatch"},
+        "south": {"uv": [3.5, 1, 5.5, 1.75], "texture": "#hatch"},
+        "west": {"uv": [0, 1, 1, 1.75], "texture": "#hatch"},
+        "up": {"uv": [3.5, 0, 5.5, 1], "texture": "#hatch"}
+      }
+    },
+    {
+      "name": "hinge_east",
+      "from": [10.5, 15, 1.75],
+      "to": [12.5, 15.75, 2.75],
+      "faces": {
+        "east": {"uv": [0, 1, 1, 1.75], "texture": "#hatch"},
+        "south": {"uv": [10.5, 1, 12.5, 1.75], "texture": "#hatch"},
+        "west": {"uv": [0, 1, 1, 1.75], "texture": "#hatch"},
+        "up": {"uv": [10.5, 0, 12.5, 1], "texture": "#hatch"}
+      }
+    }
+  ]
+}

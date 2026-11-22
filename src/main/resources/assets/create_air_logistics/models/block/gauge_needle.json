@@ -1,0 +1,23 @@
+{
+  "credit": "Create: Air Logistics - Dynamic Pressure Gauge Needle",
+  "parent": "minecraft:block/block",
+  "textures": {
+    "needle": "create_air_logistics:block/gauge_needle",
+    "particle": "create_air_logistics:block/gauge_needle"
+  },
+  "elements": [
+    {
+      "name": "needle",
+      "from": [7.65, 7.65, 7.9],
+      "to": [8.35, 10.5, 8.1],
+      "faces": {
+        "north": {"uv": [0, 0, 16, 16], "texture": "#needle"},
+        "south": {"uv": [0, 0, 16, 16], "texture": "#needle"},
+        "east": {"uv": [0, 0, 16, 16], "texture": "#needle"},
+        "west": {"uv": [0, 0, 16, 16], "texture": "#needle"},
+        "up": {"uv": [0, 0, 16, 4], "texture": "#needle"},
+        "down": {"uv": [0, 14, 16, 16], "texture": "#needle"}
+      }
+    }
+  ]
+}

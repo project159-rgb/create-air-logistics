@@ -1,0 +1,163 @@
+{
+  "credit": "Create: Air Logistics - Pathfinder Propeller 3x3 rotor partial (front = north, rotor plane = block in front)",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "axis": "create:block/axis",
+    "axis_top": "create:block/axis_top",
+    "brass": "create:block/brass_casing",
+    "brass_block": "create:block/brass_block",
+    "wood": "create:block/andesite_casing",
+    "particle": "create:block/brass_casing"
+  },
+  "elements": [
+    {
+      "name": "drive_shaft",
+      "from": [6, 6, -5],
+      "to": [10, 10, 0],
+      "faces": {
+        "east": {"uv": [6, 0, 10, 5], "rotation": 90, "texture": "#axis"},
+        "south": {"uv": [6, 6, 10, 10], "texture": "#axis_top"},
+        "west": {"uv": [6, 0, 10, 5], "rotation": 90, "texture": "#axis"},
+        "up": {"uv": [6, 0, 10, 5], "texture": "#axis"},
+        "down": {"uv": [6, 0, 10, 5], "texture": "#axis"}
+      }
+    },
+    {
+      "name": "hub",
+      "from": [5, 5, -10],
+      "to": [11, 11, -5],
+      "faces": {
+        "north": {"uv": [5, 5, 11, 11], "texture": "#brass"},
+        "east": {"uv": [11, 5, 16, 11], "texture": "#brass"},
+        "south": {"uv": [5, 5, 11, 11], "texture": "#brass"},
+        "west": {"uv": [0, 5, 5, 11], "texture": "#brass"},
+        "up": {"uv": [5, 0, 11, 5], "texture": "#brass"},
+        "down": {"uv": [5, 11, 11, 16], "texture": "#brass"}
+      }
+    },
+    {
+      "name": "spinner_cone",
+      "from": [6, 6, -12],
+      "to": [10, 10, -10],
+      "faces": {
+        "north": {"uv": [6, 6, 10, 10], "texture": "#brass_block"},
+        "east": {"uv": [6, 6, 8, 10], "texture": "#brass_block"},
+        "west": {"uv": [8, 6, 10, 10], "texture": "#brass_block"},
+        "up": {"uv": [6, 6, 10, 8], "texture": "#brass_block"},
+        "down": {"uv": [6, 8, 10, 10], "texture": "#brass_block"}
+      }
+    },
+    {
+      "name": "spinner_tip",
+      "from": [7, 7, -13],
+      "to": [9, 9, -12],
+      "faces": {
+        "north": {"uv": [7, 7, 9, 9], "texture": "#brass_block"},
+        "east": {"uv": [7, 7, 8, 9], "texture": "#brass_block"},
+        "west": {"uv": [8, 7, 9, 9], "texture": "#brass_block"},
+        "up": {"uv": [7, 7, 9, 8], "texture": "#brass_block"},
+        "down": {"uv": [7, 8, 9, 9], "texture": "#brass_block"}
+      }
+    },
+    {
+      "name": "blade_up",
+      "from": [5.5, 11, -8],
+      "to": [10.5, 27, -7],
+      "rotation": {"angle": 22.5, "axis": "y", "origin": [8, 19, -7.5]},
+      "faces": {
+        "north": {"uv": [3, 2, 8, 14], "texture": "#wood"},
+        "east": {"uv": [3, 2, 4, 14], "texture": "#wood"},
+        "south": {"uv": [8, 2, 13, 14], "texture": "#wood"},
+        "west": {"uv": [12, 2, 13, 14], "texture": "#wood"}
+      }
+    },
+    {
+      "name": "blade_up_tip",
+      "from": [5.5, 27, -8],
+      "to": [10.5, 30, -7],
+      "rotation": {"angle": 22.5, "axis": "y", "origin": [8, 19, -7.5]},
+      "faces": {
+        "north": {"uv": [5.5, 0, 10.5, 3], "texture": "#brass_block"},
+        "east": {"uv": [0, 0, 1, 3], "texture": "#brass_block"},
+        "south": {"uv": [5.5, 0, 10.5, 3], "texture": "#brass_block"},
+        "west": {"uv": [0, 0, 1, 3], "texture": "#brass_block"},
+        "up": {"uv": [5.5, 0, 10.5, 1], "texture": "#brass_block"}
+      }
+    },
+    {
+      "name": "blade_down",
+      "from": [5.5, -11, -8],
+      "to": [10.5, 5, -7],
+      "rotation": {"angle": -22.5, "axis": "y", "origin": [8, -3, -7.5]},
+      "faces": {
+        "north": {"uv": [3, 2, 8, 14], "rotation": 180, "texture": "#wood"},
+        "east": {"uv": [3, 2, 4, 14], "texture": "#wood"},
+        "south": {"uv": [8, 2, 13, 14], "rotation": 180, "texture": "#wood"},
+        "west": {"uv": [12, 2, 13, 14], "texture": "#wood"}
+      }
+    },
+    {
+      "name": "blade_down_tip",
+      "from": [5.5, -14, -8],
+      "to": [10.5, -11, -7],
+      "rotation": {"angle": -22.5, "axis": "y", "origin": [8, -3, -7.5]},
+      "faces": {
+        "north": {"uv": [5.5, 0, 10.5, 3], "rotation": 180, "texture": "#brass_block"},
+        "east": {"uv": [0, 0, 1, 3], "rotation": 180, "texture": "#brass_block"},
+        "south": {"uv": [5.5, 0, 10.5, 3], "rotation": 180, "texture": "#brass_block"},
+        "west": {"uv": [0, 0, 1, 3], "rotation": 180, "texture": "#brass_block"},
+        "down": {"uv": [5.5, 0, 10.5, 1], "texture": "#brass_block"}
+      }
+    },
+    {
+      "name": "blade_east",
+      "from": [11, 5.5, -8],
+      "to": [27, 10.5, -7],
+      "rotation": {"angle": 22.5, "axis": "x", "origin": [19, 8, -7.5]},
+      "faces": {
+        "north": {"uv": [3, 2, 8, 14], "rotation": 90, "texture": "#wood"},
+        "south": {"uv": [8, 2, 13, 14], "rotation": 90, "texture": "#wood"},
+        "up": {"uv": [3, 2, 4, 14], "rotation": 90, "texture": "#wood"},
+        "down": {"uv": [12, 2, 13, 14], "rotation": 90, "texture": "#wood"}
+      }
+    },
+    {
+      "name": "blade_east_tip",
+      "from": [27, 5.5, -8],
+      "to": [30, 10.5, -7],
+      "rotation": {"angle": 22.5, "axis": "x", "origin": [19, 8, -7.5]},
+      "faces": {
+        "north": {"uv": [0, 5.5, 3, 10.5], "texture": "#brass_block"},
+        "east": {"uv": [0, 5.5, 1, 10.5], "texture": "#brass_block"},
+        "south": {"uv": [0, 5.5, 3, 10.5], "rotation": 180, "texture": "#brass_block"},
+        "up": {"uv": [0, 0, 3, 1], "rotation": 180, "texture": "#brass_block"},
+        "down": {"uv": [0, 0, 3, 1], "rotation": 180, "texture": "#brass_block"}
+      }
+    },
+    {
+      "name": "blade_west",
+      "from": [-11, 5.5, -8],
+      "to": [5, 10.5, -7],
+      "rotation": {"angle": -22.5, "axis": "x", "origin": [-3, 8, -7.5]},
+      "faces": {
+        "north": {"uv": [3, 2, 8, 14], "rotation": 270, "texture": "#wood"},
+        "south": {"uv": [8, 2, 13, 14], "rotation": 270, "texture": "#wood"},
+        "up": {"uv": [3, 2, 4, 14], "rotation": 270, "texture": "#wood"},
+        "down": {"uv": [12, 2, 13, 14], "rotation": 270, "texture": "#wood"}
+      }
+    },
+    {
+      "name": "blade_west_tip",
+      "from": [-14, 5.5, -8],
+      "to": [-11, 10.5, -7],
+      "rotation": {"angle": -22.5, "axis": "x", "origin": [-3, 8, -7.5]},
+      "faces": {
+        "north": {"uv": [0, 5.5, 3, 10.5], "rotation": 180, "texture": "#brass_block"},
+        "south": {"uv": [0, 5.5, 3, 10.5], "texture": "#brass_block"},
+        "west": {"uv": [0, 5.5, 1, 10.5], "texture": "#brass_block"},
+        "up": {"uv": [0, 0, 3, 1], "texture": "#brass_block"},
+        "down": {"uv": [0, 0, 3, 1], "texture": "#brass_block"}
+      }
+    }
+  ]
+}

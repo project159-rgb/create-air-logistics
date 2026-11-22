@@ -1,0 +1,23 @@
+{
+  "credit": "Create: Air Logistics - Canvas Balloon (Create sail canvas)",
+  "parent": "minecraft:block/block",
+  "textures": {
+    "canvas": "create_air_logistics:block/balloon/canvas_pink",
+    "particle": "create_air_logistics:block/balloon/canvas_pink"
+  },
+  "elements": [
+    {
+      "name": "envelope",
+      "from": [0, 0, 0],
+      "to": [16, 16, 16],
+      "faces": {
+        "north": {"uv": [0, 0, 16, 16], "texture": "#canvas", "cullface": "north"},
+        "east": {"uv": [0, 0, 16, 16], "texture": "#canvas", "cullface": "east"},
+        "south": {"uv": [0, 0, 16, 16], "texture": "#canvas", "cullface": "south"},
+        "west": {"uv": [0, 0, 16, 16], "texture": "#canvas", "cullface": "west"},
+        "up": {"uv": [0, 0, 16, 16], "texture": "#canvas", "cullface": "up"},
+        "down": {"uv": [0, 0, 16, 16], "texture": "#canvas", "cullface": "down"}
+      }
+    }
+  ]
+}

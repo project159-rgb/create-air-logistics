@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "canvas_balloon_dye",
+  "ingredients": [
+    {
+      "tag": "create_air_logistics:canvas_balloons"
+    },
+    {
+      "item": "minecraft:gray_dye"
+    }
+  ],
+  "result": {
+    "id": "create_air_logistics:gray_canvas_balloon",
+    "count": 1
+  }
+}

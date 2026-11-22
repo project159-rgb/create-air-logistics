@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "canvas_balloon_dye_8",
+  "pattern": [
+    "BBB",
+    "BDB",
+    "BBB"
+  ],
+  "key": {
+    "B": {
+      "tag": "create_air_logistics:canvas_balloons"
+    },
+    "D": {
+      "item": "minecraft:yellow_dye"
+    }
+  },
+  "result": {
+    "id": "create_air_logistics:yellow_canvas_balloon",
+    "count": 8
+  }
+}

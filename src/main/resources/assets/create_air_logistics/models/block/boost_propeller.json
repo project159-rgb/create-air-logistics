@@ -1,0 +1,61 @@
+{
+  "credit": "Create: Air Logistics - Boost Propeller housing (Copper & Andesite auxiliary thruster)",
+  "parent": "minecraft:block/block",
+  "textures": {
+    "copper": "create:block/andesite_casing",
+    "gear": "create:block/gearbox",
+    "andesite": "create:block/andesite_casing",
+    "particle": "create:block/andesite_casing",
+    "back_port": "create_air_logistics:block/boost_propeller_back"
+  },
+  "elements": [
+    {
+      "name": "rear_mount",
+      "from": [0, 0, 12],
+      "to": [16, 16, 16],
+      "faces": {
+        "east": {"uv": [0, 0, 4, 16], "texture": "#copper", "cullface": "east"},
+        "south": {"uv": [0, 0, 16, 16], "texture": "#back_port", "cullface": "south"},
+        "west": {"uv": [12, 0, 16, 16], "texture": "#copper", "cullface": "west"},
+        "up": {"uv": [0, 12, 16, 16], "texture": "#copper", "cullface": "up"},
+        "down": {"uv": [0, 0, 16, 4], "texture": "#copper", "cullface": "down"}
+      }
+    },
+    {
+      "name": "rear_mount_front_trim",
+      "from": [0, 0, 11],
+      "to": [16, 16, 12],
+      "faces": {
+        "north": {"uv": [0, 0, 16, 16], "texture": "#copper"},
+        "east": {"uv": [1, 0, 2, 16], "texture": "#copper", "cullface": "east"},
+        "west": {"uv": [1, 0, 2, 16], "texture": "#copper", "cullface": "west"},
+        "up": {"uv": [0, 1, 16, 2], "texture": "#copper", "cullface": "up"},
+        "down": {"uv": [0, 1, 16, 2], "texture": "#copper", "cullface": "down"}
+      }
+    },
+    {
+      "name": "nacelle",
+      "from": [2, 2, 3],
+      "to": [14, 14, 11],
+      "faces": {
+        "north": {"uv": [2, 2, 14, 14], "texture": "#andesite"},
+        "east": {"uv": [5, 2, 13, 14], "texture": "#andesite"},
+        "west": {"uv": [3, 2, 11, 14], "texture": "#andesite"},
+        "up": {"uv": [2, 3, 14, 11], "texture": "#andesite"},
+        "down": {"uv": [2, 5, 14, 13], "texture": "#andesite"}
+      }
+    },
+    {
+      "name": "front_bearing",
+      "from": [4, 4, 0],
+      "to": [12, 12, 3],
+      "faces": {
+        "north": {"uv": [4, 4, 12, 12], "texture": "#gear"},
+        "east": {"uv": [13, 4, 16, 12], "texture": "#copper"},
+        "west": {"uv": [0, 4, 3, 12], "texture": "#copper"},
+        "up": {"uv": [4, 0, 12, 3], "texture": "#copper"},
+        "down": {"uv": [4, 13, 12, 16], "texture": "#copper"}
+      }
+    }
+  ]
+}

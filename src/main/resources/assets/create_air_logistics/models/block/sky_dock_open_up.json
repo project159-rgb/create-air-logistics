@@ -1,0 +1,242 @@
+{
+  "credit": "Create: Air Logistics - Sky Dock with recessed UP vertical shaft socket (zero z-fighting)",
+  "parent": "minecraft:block/block",
+  "textures": {
+    "brass": "create:block/brass_casing",
+    "andesite": "create:block/andesite_casing",
+    "psi": "create:block/portable_storage_interface",
+    "gear": "create:block/brass_gearbox",
+    "particle": "create:block/brass_casing"
+  },
+  "elements": [
+    {
+      "name": "plinth",
+      "from": [0, 0, 0],
+      "to": [16, 3, 16],
+      "faces": {
+        "north": {"uv": [0, 13, 16, 16], "texture": "#brass"},
+        "east": {"uv": [0, 13, 16, 16], "texture": "#brass"},
+        "south": {"uv": [0, 13, 16, 16], "texture": "#brass"},
+        "west": {"uv": [0, 13, 16, 16], "texture": "#brass"},
+        "up": {"uv": [0, 0, 16, 16], "texture": "#brass"},
+        "down": {"uv": [0, 0, 16, 16], "texture": "#brass", "cullface": "down"}
+      }
+    },
+    {
+      "name": "body",
+      "from": [2, 3, 2],
+      "to": [14, 13, 14],
+      "faces": {
+        "north": {"uv": [2, 3, 14, 13], "texture": "#brass"},
+        "east": {"uv": [2, 3, 14, 13], "texture": "#brass"},
+        "south": {"uv": [2, 3, 14, 13], "texture": "#brass"},
+        "west": {"uv": [2, 3, 14, 13], "texture": "#brass"}
+      }
+    },
+    {
+      "name": "crown_north",
+      "from": [0, 13, 0],
+      "to": [16, 16, 4],
+      "faces": {
+        "north": {"uv": [0, 0, 16, 3], "texture": "#brass"},
+        "east": {"uv": [12, 0, 16, 3], "texture": "#brass"},
+        "south": {"uv": [0, 0, 16, 3], "texture": "#brass"},
+        "west": {"uv": [0, 0, 4, 3], "texture": "#brass"},
+        "up": {"uv": [0, 0, 16, 4], "texture": "#brass", "cullface": "up"},
+        "down": {"uv": [0, 12, 16, 16], "texture": "#brass"}
+      }
+    },
+    {
+      "name": "crown_south",
+      "from": [0, 13, 12],
+      "to": [16, 16, 16],
+      "faces": {
+        "north": {"uv": [0, 0, 16, 3], "texture": "#brass"},
+        "east": {"uv": [0, 0, 4, 3], "texture": "#brass"},
+        "south": {"uv": [0, 0, 16, 3], "texture": "#brass"},
+        "west": {"uv": [12, 0, 16, 3], "texture": "#brass"},
+        "up": {"uv": [0, 12, 16, 16], "texture": "#brass", "cullface": "up"},
+        "down": {"uv": [0, 0, 16, 4], "texture": "#brass"}
+      }
+    },
+    {
+      "name": "crown_west",
+      "from": [0, 13, 4],
+      "to": [4, 16, 12],
+      "faces": {
+        "east": {"uv": [4, 0, 12, 3], "texture": "#brass"},
+        "west": {"uv": [4, 0, 12, 3], "texture": "#brass"},
+        "up": {"uv": [0, 4, 4, 12], "texture": "#brass", "cullface": "up"},
+        "down": {"uv": [0, 4, 4, 12], "texture": "#brass"}
+      }
+    },
+    {
+      "name": "crown_east",
+      "from": [12, 13, 4],
+      "to": [16, 16, 12],
+      "faces": {
+        "east": {"uv": [4, 0, 12, 3], "texture": "#brass"},
+        "west": {"uv": [4, 0, 12, 3], "texture": "#brass"},
+        "up": {"uv": [12, 4, 16, 12], "texture": "#brass", "cullface": "up"},
+        "down": {"uv": [12, 4, 16, 12], "texture": "#brass"}
+      }
+    },
+    {
+      "name": "up_gearbox_backplate",
+      "from": [4, 14.0, 4],
+      "to": [12, 14.15, 12],
+      "faces": {
+        "up": {"uv": [4, 4, 12, 12], "texture": "#gear"},
+        "down": {"uv": [4, 4, 12, 12], "texture": "#gear"}
+      }
+    },
+    {
+      "name": "up_gusset_nw",
+      "from": [4, 14.15, 4],
+      "to": [5.25, 15.75, 5.25],
+      "faces": {
+        "north": {"uv": [0, 0, 2, 2], "texture": "#andesite"},
+        "south": {"uv": [0, 0, 2, 2], "texture": "#andesite"},
+        "east": {"uv": [14, 0, 16, 2], "texture": "#andesite"},
+        "west": {"uv": [0, 0, 2, 2], "texture": "#andesite"},
+        "up": {"uv": [0, 0, 2, 2], "texture": "#andesite"},
+        "down": {"uv": [0, 14, 2, 16], "texture": "#andesite"}
+      }
+    },
+    {
+      "name": "up_gusset_ne",
+      "from": [10.75, 14.15, 4],
+      "to": [12, 15.75, 5.25],
+      "faces": {
+        "north": {"uv": [14, 0, 16, 2], "texture": "#andesite"},
+        "south": {"uv": [14, 0, 16, 2], "texture": "#andesite"},
+        "east": {"uv": [14, 0, 16, 2], "texture": "#andesite"},
+        "west": {"uv": [0, 0, 2, 2], "texture": "#andesite"},
+        "up": {"uv": [14, 0, 16, 2], "texture": "#andesite"},
+        "down": {"uv": [14, 14, 16, 16], "texture": "#andesite"}
+      }
+    },
+    {
+      "name": "up_gusset_sw",
+      "from": [4, 14.15, 10.75],
+      "to": [5.25, 15.75, 12],
+      "faces": {
+        "north": {"uv": [0, 14, 2, 16], "texture": "#andesite"},
+        "south": {"uv": [0, 14, 2, 16], "texture": "#andesite"},
+        "east": {"uv": [14, 14, 16, 16], "texture": "#andesite"},
+        "west": {"uv": [0, 14, 2, 16], "texture": "#andesite"},
+        "up": {"uv": [0, 14, 2, 16], "texture": "#andesite"},
+        "down": {"uv": [0, 0, 2, 2], "texture": "#andesite"}
+      }
+    },
+    {
+      "name": "up_gusset_se",
+      "from": [10.75, 14.15, 10.75],
+      "to": [12, 15.75, 12],
+      "faces": {
+        "north": {"uv": [14, 14, 16, 16], "texture": "#andesite"},
+        "south": {"uv": [14, 14, 16, 16], "texture": "#andesite"},
+        "east": {"uv": [14, 14, 16, 16], "texture": "#andesite"},
+        "west": {"uv": [0, 14, 2, 16], "texture": "#andesite"},
+        "up": {"uv": [14, 14, 16, 16], "texture": "#andesite"},
+        "down": {"uv": [14, 0, 16, 2], "texture": "#andesite"}
+      }
+    },
+    {
+      "name": "docking_mouth_socket",
+      "from": [2, 3, 0.5],
+      "to": [14, 13, 1],
+      "faces": {
+        "north": {"uv": [9, 9.5, 15, 14.5], "texture": "#psi"}
+      }
+    },
+    {
+      "name": "docking_collar_top",
+      "from": [0, 15.25, -1.5],
+      "to": [16, 16, 0],
+      "faces": {
+        "north": {"uv": [0, 0, 16, 0.75], "texture": "#brass"},
+        "east": {"uv": [0, 0, 1.5, 0.75], "texture": "#brass"},
+        "west": {"uv": [14.5, 0, 16, 0.75], "texture": "#brass"},
+        "up": {"uv": [0, 0, 16, 1.5], "texture": "#brass"},
+        "down": {"uv": [0, 14.5, 16, 16], "texture": "#brass"}
+      }
+    },
+    {
+      "name": "docking_collar_bottom",
+      "from": [0, 0, -1.5],
+      "to": [16, 0.75, 0],
+      "faces": {
+        "north": {"uv": [0, 15.25, 16, 16], "texture": "#brass"},
+        "east": {"uv": [0, 15.25, 1.5, 16], "texture": "#brass"},
+        "west": {"uv": [14.5, 15.25, 16, 16], "texture": "#brass"},
+        "up": {"uv": [0, 0, 16, 1.5], "texture": "#brass"},
+        "down": {"uv": [0, 14.5, 16, 16], "texture": "#brass"}
+      }
+    },
+    {
+      "name": "docking_collar_west",
+      "from": [0, 0.75, -1.5],
+      "to": [0.75, 15.25, 0],
+      "faces": {
+        "north": {"uv": [15.25, 0.75, 16, 15.25], "texture": "#brass"},
+        "east": {"uv": [0, 0.75, 1.5, 15.25], "texture": "#brass"},
+        "west": {"uv": [14.5, 0.75, 16, 15.25], "texture": "#brass"}
+      }
+    },
+    {
+      "name": "docking_collar_east",
+      "from": [15.25, 0.75, -1.5],
+      "to": [16, 15.25, 0],
+      "faces": {
+        "north": {"uv": [0, 0.75, 0.75, 15.25], "texture": "#brass"},
+        "east": {"uv": [0, 0.75, 1.5, 15.25], "texture": "#brass"},
+        "west": {"uv": [14.5, 0.75, 16, 15.25], "texture": "#brass"}
+      }
+    },
+    {
+      "name": "corner_post_nw",
+      "from": [0, 3, 0],
+      "to": [2, 13, 2],
+      "faces": {
+        "north": {"uv": [14, 3, 16, 13], "texture": "#brass"},
+        "east": {"uv": [0, 3, 2, 13], "texture": "#brass"},
+        "south": {"uv": [0, 3, 2, 13], "texture": "#brass"},
+        "west": {"uv": [0, 3, 2, 13], "texture": "#brass"}
+      }
+    },
+    {
+      "name": "corner_post_ne",
+      "from": [14, 3, 0],
+      "to": [16, 13, 2],
+      "faces": {
+        "north": {"uv": [0, 3, 2, 13], "texture": "#brass"},
+        "east": {"uv": [14, 3, 16, 13], "texture": "#brass"},
+        "south": {"uv": [14, 3, 16, 13], "texture": "#brass"},
+        "west": {"uv": [14, 3, 16, 13], "texture": "#brass"}
+      }
+    },
+    {
+      "name": "corner_post_sw",
+      "from": [0, 3, 14],
+      "to": [2, 13, 16],
+      "faces": {
+        "north": {"uv": [0, 3, 2, 13], "texture": "#brass"},
+        "east": {"uv": [0, 3, 2, 13], "texture": "#brass"},
+        "south": {"uv": [0, 3, 2, 13], "texture": "#brass"},
+        "west": {"uv": [14, 3, 16, 13], "texture": "#brass"}
+      }
+    },
+    {
+      "name": "corner_post_se",
+      "from": [14, 3, 14],
+      "to": [16, 13, 16],
+      "faces": {
+        "north": {"uv": [14, 3, 16, 13], "texture": "#brass"},
+        "east": {"uv": [0, 3, 2, 13], "texture": "#brass"},
+        "south": {"uv": [14, 3, 16, 13], "texture": "#brass"},
+        "west": {"uv": [14, 3, 16, 13], "texture": "#brass"}
+      }
+    }
+  ]
+}

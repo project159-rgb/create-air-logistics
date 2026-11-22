@@ -1,0 +1,56 @@
+name: Bug Report
+description: Report a bug or crash in Create: Air Logistics
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Before submitting
+      options:
+        - label: I am using the latest version of Create: Air Logistics, Create, and NeoForge.
+          required: true
+        - label: I have checked existing issues to make sure this is not a duplicate.
+          required: true
+  - type: input
+    id: mod_version
+    attributes:
+      label: Create: Air Logistics Version
+      placeholder: e.g. 1.0.0-beta
+    validations:
+      required: true
+  - type: input
+    id: create_version
+    attributes:
+      label: Create Version
+      placeholder: e.g. 6.0.11
+    validations:
+      required: true
+  - type: input
+    id: neoforge_version
+    attributes:
+      label: NeoForge Version
+      placeholder: e.g. 21.1.219
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: What happened?
+      description: Describe the bug and what you expected to happen.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to Reproduce
+      description: How can this issue be reproduced?
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Crash Report / Latest Log
+      description: Paste a link to your log (e.g. https://mclo.gs) if available.
+    validations:
+      required: false

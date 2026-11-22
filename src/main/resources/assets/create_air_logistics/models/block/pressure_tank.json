@@ -1,0 +1,100 @@
+{
+  "credit": "Create: Air Logistics - Pressure Tank (Riveted Copper Air Reservoir with Flat 3D Boiler Gauge)",
+  "parent": "minecraft:block/block",
+  "textures": {
+    "copper": "create:block/copper_casing",
+    "brass": "create:block/brass_casing",
+    "tank": "create:block/copper_backtank",
+    "engine": "create:block/engine",
+    "gauge": "create_air_logistics:block/pressure_gauge",
+    "particle": "create:block/copper_casing"
+  },
+  "elements": [
+    {
+      "name": "bottom_flange",
+      "from": [2, 0, 2],
+      "to": [14, 2, 14],
+      "faces": {
+        "north": {"uv": [1, 7, 7, 8], "texture": "#engine"},
+        "south": {"uv": [1, 7, 7, 8], "texture": "#engine"},
+        "east": {"uv": [1, 7, 7, 8], "texture": "#engine"},
+        "west": {"uv": [1, 7, 7, 8], "texture": "#engine"},
+        "up": {"uv": [0.5, 8.5, 7.5, 15.5], "texture": "#engine"},
+        "down": {"uv": [0.5, 8.5, 7.5, 15.5], "texture": "#engine", "cullface": "down"}
+      }
+    },
+    {
+      "name": "tank_cylinder",
+      "from": [2.5, 2, 2.5],
+      "to": [13.5, 13, 13.5],
+      "faces": {
+        "north": {"uv": [1.5, 0.5, 6.5, 6.5], "texture": "#engine"},
+        "south": {"uv": [1.5, 0.5, 6.5, 6.5], "texture": "#engine"},
+        "east": {"uv": [1.5, 0.5, 6.5, 6.5], "texture": "#engine"},
+        "west": {"uv": [1.5, 0.5, 6.5, 6.5], "texture": "#engine"}
+      }
+    },
+    {
+      "name": "middle_strap",
+      "from": [2, 6.5, 2],
+      "to": [14, 8.5, 14],
+      "faces": {
+        "north": {"uv": [2, 7, 14, 9], "texture": "#brass"},
+        "south": {"uv": [2, 7, 14, 9], "texture": "#brass"},
+        "east": {"uv": [2, 7, 14, 9], "texture": "#brass"},
+        "west": {"uv": [2, 7, 14, 9], "texture": "#brass"},
+        "up": {"uv": [2, 2, 14, 14], "texture": "#brass"},
+        "down": {"uv": [2, 2, 14, 14], "texture": "#brass"}
+      }
+    },
+    {
+      "name": "top_flange",
+      "from": [2, 13, 2],
+      "to": [14, 15, 14],
+      "faces": {
+        "north": {"uv": [1, 6.5, 7, 7.5], "texture": "#engine"},
+        "south": {"uv": [1, 6.5, 7, 7.5], "texture": "#engine"},
+        "east": {"uv": [1, 6.5, 7, 7.5], "texture": "#engine"},
+        "west": {"uv": [1, 6.5, 7, 7.5], "texture": "#engine"},
+        "up": {"uv": [0.5, 8.5, 7.5, 15.5], "texture": "#engine"},
+        "down": {"uv": [0.5, 8.5, 7.5, 15.5], "texture": "#engine"}
+      }
+    },
+    {
+      "name": "valve_cap",
+      "from": [5, 15, 5],
+      "to": [11, 16, 11],
+      "faces": {
+        "north": {"uv": [4.5, 1, 7.5, 2], "texture": "#tank"},
+        "south": {"uv": [4.5, 1, 7.5, 2], "texture": "#tank"},
+        "east": {"uv": [4.5, 1, 7.5, 2], "texture": "#tank"},
+        "west": {"uv": [4.5, 1, 7.5, 2], "texture": "#tank"},
+        "up": {"uv": [0.5, 6.5, 3.5, 9.5], "texture": "#tank", "cullface": "up"}
+      }
+    },
+    {
+      "name": "gauge_north",
+      "from": [5, 5, 1.3],
+      "to": [11, 11, 2.5],
+      "faces": {
+        "north": {"uv": [0.5, 8.5, 7.5, 15.5], "texture": "#gauge"},
+        "east": {"uv": [10.5, 8.5, 12, 15.5], "texture": "#gauge"},
+        "west": {"uv": [12, 8.5, 10.5, 15.5], "texture": "#gauge"},
+        "up": {"uv": [10, 8.5, 8.5, 15.5], "texture": "#gauge"},
+        "down": {"uv": [12.5, 8.5, 14, 15.5], "texture": "#gauge"}
+      }
+    },
+    {
+      "name": "gauge_south",
+      "from": [5, 5, 13.5],
+      "to": [11, 11, 14.7],
+      "faces": {
+        "south": {"uv": [0.5, 8.5, 7.5, 15.5], "texture": "#gauge"},
+        "east": {"uv": [12, 8.5, 10.5, 15.5], "texture": "#gauge"},
+        "west": {"uv": [10.5, 8.5, 12, 15.5], "texture": "#gauge"},
+        "up": {"uv": [10, 8.5, 8.5, 15.5], "texture": "#gauge"},
+        "down": {"uv": [12.5, 8.5, 14, 15.5], "texture": "#gauge"}
+      }
+    }
+  ]
+}

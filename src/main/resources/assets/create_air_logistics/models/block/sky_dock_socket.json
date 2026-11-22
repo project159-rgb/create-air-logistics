@@ -1,0 +1,128 @@
+{
+  "credit": "Create: Air Logistics - Sky Dock shaft socket (Brass Gearbox & Casing recessed pocket, zero-gap 12x10 frame with 8x8 open shaft cavity)",
+  "textures": {
+    "brass": "create:block/brass_casing",
+    "andesite": "create:block/andesite_casing",
+    "gear": "create:block/brass_gearbox",
+    "particle": "create:block/brass_casing"
+  },
+  "elements": [
+    {
+      "name": "frame_top",
+      "from": [2, 12, 0],
+      "to": [14, 13, 2],
+      "faces": {
+        "north": {"uv": [2, 1, 14, 2], "texture": "#brass"},
+        "south": {"uv": [2, 1, 14, 2], "texture": "#brass"},
+        "east": {"uv": [14, 1, 16, 2], "texture": "#brass"},
+        "west": {"uv": [0, 1, 2, 2], "texture": "#brass"},
+        "up": {"uv": [2, 0, 14, 2], "texture": "#brass"},
+        "down": {"uv": [2, 14, 14, 16], "texture": "#andesite"}
+      }
+    },
+    {
+      "name": "frame_bottom",
+      "from": [2, 3, 0],
+      "to": [14, 4, 2],
+      "faces": {
+        "north": {"uv": [2, 14, 14, 15], "texture": "#brass"},
+        "south": {"uv": [2, 14, 14, 15], "texture": "#brass"},
+        "east": {"uv": [14, 14, 16, 15], "texture": "#brass"},
+        "west": {"uv": [0, 14, 2, 15], "texture": "#brass"},
+        "up": {"uv": [2, 0, 14, 2], "texture": "#andesite"},
+        "down": {"uv": [2, 14, 14, 16], "texture": "#brass"}
+      }
+    },
+    {
+      "name": "frame_left",
+      "from": [2, 4, 0],
+      "to": [4, 12, 2],
+      "faces": {
+        "north": {"uv": [0, 4, 2, 12], "texture": "#brass"},
+        "south": {"uv": [0, 4, 2, 12], "texture": "#brass"},
+        "east": {"uv": [14, 4, 16, 12], "texture": "#andesite"},
+        "west": {"uv": [0, 4, 2, 12], "texture": "#brass"},
+        "up": {"uv": [0, 0, 2, 2], "texture": "#brass"},
+        "down": {"uv": [0, 14, 2, 16], "texture": "#brass"}
+      }
+    },
+    {
+      "name": "frame_right",
+      "from": [12, 4, 0],
+      "to": [14, 12, 2],
+      "faces": {
+        "north": {"uv": [14, 4, 16, 12], "texture": "#brass"},
+        "south": {"uv": [14, 4, 16, 12], "texture": "#brass"},
+        "east": {"uv": [14, 4, 16, 12], "texture": "#brass"},
+        "west": {"uv": [0, 4, 2, 12], "texture": "#andesite"},
+        "up": {"uv": [14, 0, 16, 2], "texture": "#brass"},
+        "down": {"uv": [14, 14, 16, 16], "texture": "#brass"}
+      }
+    },
+    {
+      "name": "gearbox_backplate",
+      "from": [4, 4, 1.85],
+      "to": [12, 12, 2.0],
+      "faces": {
+        "north": {"uv": [4, 4, 12, 12], "texture": "#gear"},
+        "south": {"uv": [4, 4, 12, 12], "texture": "#gear"},
+        "east": {"uv": [15, 4, 16, 12], "texture": "#andesite"},
+        "west": {"uv": [0, 4, 1, 12], "texture": "#andesite"},
+        "up": {"uv": [4, 0, 12, 1], "texture": "#andesite"},
+        "down": {"uv": [4, 15, 12, 16], "texture": "#andesite"}
+      }
+    },
+    {
+      "name": "corner_gusset_tl",
+      "from": [4, 10.75, 0.25],
+      "to": [5.25, 12, 1.85],
+      "faces": {
+        "north": {"uv": [0, 0, 2, 2], "texture": "#andesite"},
+        "south": {"uv": [0, 0, 2, 2], "texture": "#andesite"},
+        "east": {"uv": [14, 0, 16, 2], "texture": "#andesite"},
+        "west": {"uv": [0, 0, 2, 2], "texture": "#andesite"},
+        "up": {"uv": [0, 0, 2, 2], "texture": "#andesite"},
+        "down": {"uv": [0, 14, 2, 16], "texture": "#andesite"}
+      }
+    },
+    {
+      "name": "corner_gusset_tr",
+      "from": [10.75, 10.75, 0.25],
+      "to": [12, 12, 1.85],
+      "faces": {
+        "north": {"uv": [14, 0, 16, 2], "texture": "#andesite"},
+        "south": {"uv": [14, 0, 16, 2], "texture": "#andesite"},
+        "east": {"uv": [14, 0, 16, 2], "texture": "#andesite"},
+        "west": {"uv": [0, 0, 2, 2], "texture": "#andesite"},
+        "up": {"uv": [14, 0, 16, 2], "texture": "#andesite"},
+        "down": {"uv": [14, 14, 16, 16], "texture": "#andesite"}
+      }
+    },
+    {
+      "name": "corner_gusset_bl",
+      "from": [4, 4, 0.25],
+      "to": [5.25, 5.25, 1.85],
+      "faces": {
+        "north": {"uv": [0, 14, 2, 16], "texture": "#andesite"},
+        "south": {"uv": [0, 14, 2, 16], "texture": "#andesite"},
+        "east": {"uv": [14, 14, 16, 16], "texture": "#andesite"},
+        "west": {"uv": [0, 14, 2, 16], "texture": "#andesite"},
+        "up": {"uv": [0, 0, 2, 2], "texture": "#andesite"},
+        "down": {"uv": [0, 14, 2, 16], "texture": "#andesite"}
+      }
+    },
+    {
+      "name": "corner_gusset_br",
+      "from": [10.75, 4, 0.25],
+      "to": [12, 5.25, 1.85],
+      "faces": {
+        "north": {"uv": [14, 14, 16, 16], "texture": "#andesite"},
+        "south": {"uv": [14, 14, 16, 16], "texture": "#andesite"},
+        "east": {"uv": [14, 14, 16, 16], "texture": "#andesite"},
+        "west": {"uv": [0, 14, 2, 16], "texture": "#andesite"},
+        "up": {"uv": [14, 0, 16, 2], "texture": "#andesite"},
+        "down": {"uv": [14, 14, 16, 16], "texture": "#andesite"}
+      }
+    }
+  ]
+}

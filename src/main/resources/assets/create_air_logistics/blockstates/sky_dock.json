@@ -1,0 +1,23 @@
+{
+  "multipart": [
+    { "when": { "facing": "north", "shaft": "none|north|south|west|east" }, "apply": { "model": "create_air_logistics:block/sky_dock" } },
+    { "when": { "facing": "south", "shaft": "none|north|south|west|east" }, "apply": { "model": "create_air_logistics:block/sky_dock", "y": 180 } },
+    { "when": { "facing": "west",  "shaft": "none|north|south|west|east" }, "apply": { "model": "create_air_logistics:block/sky_dock", "y": 270 } },
+    { "when": { "facing": "east",  "shaft": "none|north|south|west|east" }, "apply": { "model": "create_air_logistics:block/sky_dock", "y": 90 } },
+
+    { "when": { "facing": "north", "shaft": "up" }, "apply": { "model": "create_air_logistics:block/sky_dock_open_up" } },
+    { "when": { "facing": "south", "shaft": "up" }, "apply": { "model": "create_air_logistics:block/sky_dock_open_up", "y": 180 } },
+    { "when": { "facing": "west",  "shaft": "up" }, "apply": { "model": "create_air_logistics:block/sky_dock_open_up", "y": 270 } },
+    { "when": { "facing": "east",  "shaft": "up" }, "apply": { "model": "create_air_logistics:block/sky_dock_open_up", "y": 90 } },
+
+    { "when": { "facing": "north", "shaft": "down" }, "apply": { "model": "create_air_logistics:block/sky_dock_open_down" } },
+    { "when": { "facing": "south", "shaft": "down" }, "apply": { "model": "create_air_logistics:block/sky_dock_open_down", "y": 180 } },
+    { "when": { "facing": "west",  "shaft": "down" }, "apply": { "model": "create_air_logistics:block/sky_dock_open_down", "y": 270 } },
+    { "when": { "facing": "east",  "shaft": "down" }, "apply": { "model": "create_air_logistics:block/sky_dock_open_down", "y": 90 } },
+
+    { "when": { "shaft": "north" }, "apply": { "model": "create_air_logistics:block/sky_dock_socket" } },
+    { "when": { "shaft": "south" }, "apply": { "model": "create_air_logistics:block/sky_dock_socket", "y": 180 } },
+    { "when": { "shaft": "west" },  "apply": { "model": "create_air_logistics:block/sky_dock_socket", "y": 270 } },
+    { "when": { "shaft": "east" },  "apply": { "model": "create_air_logistics:block/sky_dock_socket", "y": 90 } }
+  ]
+}

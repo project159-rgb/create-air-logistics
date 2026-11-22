@@ -1,0 +1,23 @@
+{
+  "parent": "create_air_logistics:mechanical_pathfinder",
+  "display": {
+    "icon": {
+      "id": "create_air_logistics:flight_chart"
+    },
+    "title": {
+      "translate": "advancement.create_air_logistics.chart_course.title"
+    },
+    "description": {
+      "translate": "advancement.create_air_logistics.chart_course.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "linked_route": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

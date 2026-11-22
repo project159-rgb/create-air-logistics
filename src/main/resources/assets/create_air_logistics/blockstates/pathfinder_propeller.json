@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "facing=north,has_chart=false": { "model": "create_air_logistics:block/pathfinder_propeller" },
+    "facing=south,has_chart=false": { "model": "create_air_logistics:block/pathfinder_propeller", "y": 180 },
+    "facing=west,has_chart=false":  { "model": "create_air_logistics:block/pathfinder_propeller", "y": 270 },
+    "facing=east,has_chart=false":  { "model": "create_air_logistics:block/pathfinder_propeller", "y": 90 },
+    "facing=up,has_chart=false":    { "model": "create_air_logistics:block/pathfinder_propeller", "x": 270 },
+    "facing=down,has_chart=false":  { "model": "create_air_logistics:block/pathfinder_propeller", "x": 90 },
+    "facing=north,has_chart=true": { "model": "create_air_logistics:block/pathfinder_propeller_chart" },
+    "facing=south,has_chart=true": { "model": "create_air_logistics:block/pathfinder_propeller_chart", "y": 180 },
+    "facing=west,has_chart=true":  { "model": "create_air_logistics:block/pathfinder_propeller_chart", "y": 270 },
+    "facing=east,has_chart=true":  { "model": "create_air_logistics:block/pathfinder_propeller_chart", "y": 90 },
+    "facing=up,has_chart=true":    { "model": "create_air_logistics:block/pathfinder_propeller_chart", "x": 270 },
+    "facing=down,has_chart=true":  { "model": "create_air_logistics:block/pathfinder_propeller_chart", "x": 90 }
+  }
+}

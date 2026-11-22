@@ -1,0 +1,28 @@
+{
+  "variants": {
+    "facing=north,open=false": {
+      "model": "create_air_logistics:block/airship_super_heater"
+    },
+    "facing=east,open=false": {
+      "model": "create_air_logistics:block/airship_super_heater"
+    },
+    "facing=south,open=false": {
+      "model": "create_air_logistics:block/airship_super_heater"
+    },
+    "facing=west,open=false": {
+      "model": "create_air_logistics:block/airship_super_heater"
+    },
+    "facing=north,open=true": {
+      "model": "create_air_logistics:block/airship_super_heater_open"
+    },
+    "facing=east,open=true": {
+      "model": "create_air_logistics:block/airship_super_heater_open"
+    },
+    "facing=south,open=true": {
+      "model": "create_air_logistics:block/airship_super_heater_open"
+    },
+    "facing=west,open=true": {
+      "model": "create_air_logistics:block/airship_super_heater_open"
+    }
+  }
+}

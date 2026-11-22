@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "create:brass_sheet"
+    },
+    "C": {
+      "item": "create:chute"
+    },
+    "H": {
+      "item": "create:blaze_burner"
+    },
+    "F": [
+      {
+        "item": "minecraft:campfire"
+      },
+      {
+        "item": "minecraft:soul_campfire"
+      }
+    ]
+  },
+  "pattern": [
+    "BCB",
+    "BHB",
+    "BFB"
+  ],
+  "result": {
+    "count": 1,
+    "id": "create_air_logistics:airship_super_heater"
+  }
+}

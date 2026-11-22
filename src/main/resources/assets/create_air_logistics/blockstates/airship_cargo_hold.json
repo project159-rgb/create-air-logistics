@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "open=false": { "model": "create_air_logistics:block/airship_cargo_hold" },
+    "open=true": { "model": "create_air_logistics:block/airship_cargo_hold_open" }
+  }
+}

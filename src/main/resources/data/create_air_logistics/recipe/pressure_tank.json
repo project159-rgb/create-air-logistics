@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "S": {
+      "item": "create:copper_sheet"
+    },
+    "B": {
+      "item": "create:copper_backtank"
+    }
+  },
+  "pattern": [
+    " S ",
+    "SBS",
+    " S "
+  ],
+  "result": {
+    "count": 1,
+    "id": "create_air_logistics:pressure_tank"
+  }
+}

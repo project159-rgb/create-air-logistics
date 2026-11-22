@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "axis=y": { "model": "create_air_logistics:block/pressure_tank" },
+    "axis=z": { "model": "create_air_logistics:block/pressure_tank", "x": 90 },
+    "axis=x": { "model": "create_air_logistics:block/pressure_tank", "x": 90, "y": 90 }
+  }
+}

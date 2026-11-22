@@ -1,0 +1,23 @@
+{
+  "parent": "create_air_logistics:first_flight",
+  "display": {
+    "icon": {
+      "id": "create_air_logistics:pressure_tank"
+    },
+    "title": {
+      "translate": "advancement.create_air_logistics.long_haul.title"
+    },
+    "description": {
+      "translate": "advancement.create_air_logistics.long_haul.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "high_capacity_ship": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

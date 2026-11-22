@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "F": {
+      "item": "create:fluid_pipe"
+    },
+    "S": {
+      "item": "create:copper_sheet"
+    },
+    "B": {
+      "item": "create:copper_backtank"
+    },
+    "E": {
+      "item": "create:steam_engine"
+    }
+  },
+  "pattern": [
+    " F ",
+    "SBS",
+    " E "
+  ],
+  "result": {
+    "count": 1,
+    "id": "create_air_logistics:pressure_engine"
+  }
+}

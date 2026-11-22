@@ -1,0 +1,9 @@
+{
+  "credit": "Create: Air Logistics - Boost Propeller 3x3 rotor partial (andesite alloy tips & hub)",
+  "parent": "create_air_logistics:block/pathfinder_propeller/rotor",
+  "textures": {
+    "brass": "create:block/andesite_casing",
+    "brass_block": "create:block/andesite_block",
+    "particle": "create:block/andesite_casing"
+  }
+}

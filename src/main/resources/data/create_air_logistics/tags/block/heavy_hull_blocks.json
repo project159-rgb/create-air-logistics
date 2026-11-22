@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:iron_block",
+    "minecraft:gold_block",
+    "minecraft:netherite_block",
+    "minecraft:obsidian",
+    "create:industrial_iron_block"
+  ]
+}

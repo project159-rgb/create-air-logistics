@@ -1,0 +1,30 @@
+{
+  "parent": "create_air_logistics:root",
+  "display": {
+    "icon": {
+      "id": "create_air_logistics:mechanical_pathfinder"
+    },
+    "title": {
+      "translate": "advancement.create_air_logistics.mechanical_pathfinder.title"
+    },
+    "description": {
+      "translate": "advancement.create_air_logistics.mechanical_pathfinder.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "crafted_pathfinder": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "create_air_logistics:mechanical_pathfinder"
+          }
+        ]
+      }
+    }
+  }
+}

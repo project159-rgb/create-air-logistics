@@ -1,0 +1,49 @@
+{
+  "display": {
+    "icon": {
+      "id": "create_air_logistics:sky_dock"
+    },
+    "title": {
+      "translate": "advancement.create_air_logistics.root.title"
+    },
+    "description": {
+      "translate": "advancement.create_air_logistics.root.description"
+    },
+    "background": "minecraft:textures/block/copper_block.png",
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "has_dock_or_balloon": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "create_air_logistics:sky_dock",
+              "create_air_logistics:canvas_balloon",
+              "create_air_logistics:orange_canvas_balloon",
+              "create_air_logistics:magenta_canvas_balloon",
+              "create_air_logistics:light_blue_canvas_balloon",
+              "create_air_logistics:yellow_canvas_balloon",
+              "create_air_logistics:lime_canvas_balloon",
+              "create_air_logistics:pink_canvas_balloon",
+              "create_air_logistics:gray_canvas_balloon",
+              "create_air_logistics:light_gray_canvas_balloon",
+              "create_air_logistics:cyan_canvas_balloon",
+              "create_air_logistics:purple_canvas_balloon",
+              "create_air_logistics:blue_canvas_balloon",
+              "create_air_logistics:brown_canvas_balloon",
+              "create_air_logistics:green_canvas_balloon",
+              "create_air_logistics:red_canvas_balloon",
+              "create_air_logistics:black_canvas_balloon",
+              "create_air_logistics:flight_chart"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

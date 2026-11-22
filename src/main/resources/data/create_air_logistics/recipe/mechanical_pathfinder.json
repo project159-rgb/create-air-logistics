@@ -1,0 +1,62 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "create:precision_mechanism"
+  },
+  "loops": 2,
+  "results": [
+    {
+      "chance": 95.0,
+      "id": "create_air_logistics:mechanical_pathfinder"
+    },
+    {
+      "chance": 2.0,
+      "id": "create:electron_tube"
+    },
+    {
+      "chance": 2.0,
+      "id": "minecraft:compass"
+    },
+    {
+      "chance": 1.0,
+      "id": "create:golden_sheet"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create_air_logistics:incomplete_mechanical_pathfinder"
+        },
+        {
+          "item": "create:electron_tube"
+        }
+      ],
+      "results": [
+        {
+          "id": "create_air_logistics:incomplete_mechanical_pathfinder"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create_air_logistics:incomplete_mechanical_pathfinder"
+        },
+        {
+          "item": "minecraft:compass"
+        }
+      ],
+      "results": [
+        {
+          "id": "create_air_logistics:incomplete_mechanical_pathfinder"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "create_air_logistics:incomplete_mechanical_pathfinder"
+  }
+}

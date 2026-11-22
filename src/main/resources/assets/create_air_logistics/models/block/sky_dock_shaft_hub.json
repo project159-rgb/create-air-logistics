@@ -1,0 +1,111 @@
+{
+  "credit": "Create: Air Logistics - Sky Dock rotating internal drive collar & 4 symmetrical golden brass keyway lugs (authored facing SOUTH +Z to match Create AllPartialModels.SHAFT_HALF)",
+  "textures": {
+    "brass": "create:block/brass_casing",
+    "andesite": "create:block/andesite_casing",
+    "axis": "create:block/axis",
+    "particle": "create:block/brass_casing"
+  },
+  "elements": [
+    {
+      "name": "collar_top",
+      "from": [5.25, 10, 14.25],
+      "to": [10.75, 10.75, 15.40],
+      "faces": {
+        "north": {"uv": [5, 0, 11, 2], "texture": "#andesite"},
+        "south": {"uv": [5, 0, 11, 2], "texture": "#andesite"},
+        "east": {"uv": [14, 0, 16, 2], "texture": "#andesite"},
+        "west": {"uv": [0, 0, 2, 2], "texture": "#andesite"},
+        "up": {"uv": [5, 0, 11, 2], "texture": "#andesite"},
+        "down": {"uv": [5, 1, 11, 2], "texture": "#andesite"}
+      }
+    },
+    {
+      "name": "collar_bottom",
+      "from": [5.25, 5.25, 14.25],
+      "to": [10.75, 6, 15.40],
+      "faces": {
+        "north": {"uv": [5, 14, 11, 16], "texture": "#andesite"},
+        "south": {"uv": [5, 14, 11, 16], "texture": "#andesite"},
+        "east": {"uv": [14, 14, 16, 16], "texture": "#andesite"},
+        "west": {"uv": [0, 14, 2, 16], "texture": "#andesite"},
+        "up": {"uv": [5, 14, 11, 15], "texture": "#andesite"},
+        "down": {"uv": [5, 14, 11, 16], "texture": "#andesite"}
+      }
+    },
+    {
+      "name": "collar_left",
+      "from": [5.25, 6, 14.25],
+      "to": [6, 10, 15.40],
+      "faces": {
+        "north": {"uv": [0, 6, 2, 10], "texture": "#andesite"},
+        "south": {"uv": [0, 6, 2, 10], "texture": "#andesite"},
+        "east": {"uv": [1, 6, 2, 10], "texture": "#andesite"},
+        "west": {"uv": [0, 6, 2, 10], "texture": "#andesite"}
+      }
+    },
+    {
+      "name": "collar_right",
+      "from": [10, 6, 14.25],
+      "to": [10.75, 10, 15.40],
+      "faces": {
+        "north": {"uv": [14, 6, 16, 10], "texture": "#andesite"},
+        "south": {"uv": [14, 6, 16, 10], "texture": "#andesite"},
+        "east": {"uv": [14, 6, 16, 10], "texture": "#andesite"},
+        "west": {"uv": [14, 6, 15, 10], "texture": "#andesite"}
+      }
+    },
+    {
+      "name": "lug_top",
+      "from": [7, 10, 14.35],
+      "to": [9, 11.75, 15.55],
+      "faces": {
+        "north": {"uv": [6, 0, 8, 2], "texture": "#brass"},
+        "south": {"uv": [6, 0, 8, 2], "texture": "#brass"},
+        "east": {"uv": [6, 0, 8, 2], "texture": "#brass"},
+        "west": {"uv": [6, 0, 8, 2], "texture": "#brass"},
+        "up": {"uv": [6, 0, 8, 2], "texture": "#brass"},
+        "down": {"uv": [6, 1, 8, 2], "texture": "#brass"}
+      }
+    },
+    {
+      "name": "lug_bottom",
+      "from": [7, 4.25, 14.35],
+      "to": [9, 6, 15.55],
+      "faces": {
+        "north": {"uv": [6, 14, 8, 16], "texture": "#brass"},
+        "south": {"uv": [6, 14, 8, 16], "texture": "#brass"},
+        "east": {"uv": [6, 14, 8, 16], "texture": "#brass"},
+        "west": {"uv": [6, 14, 8, 16], "texture": "#brass"},
+        "up": {"uv": [6, 14, 8, 15], "texture": "#brass"},
+        "down": {"uv": [6, 14, 8, 16], "texture": "#brass"}
+      }
+    },
+    {
+      "name": "lug_left",
+      "from": [4.25, 7, 14.35],
+      "to": [6, 9, 15.55],
+      "faces": {
+        "north": {"uv": [0, 6, 2, 8], "texture": "#brass"},
+        "south": {"uv": [0, 6, 2, 8], "texture": "#brass"},
+        "east": {"uv": [1, 6, 2, 8], "texture": "#brass"},
+        "west": {"uv": [0, 6, 2, 8], "texture": "#brass"},
+        "up": {"uv": [0, 6, 2, 8], "texture": "#brass"},
+        "down": {"uv": [0, 6, 2, 8], "texture": "#brass"}
+      }
+    },
+    {
+      "name": "lug_right",
+      "from": [10, 7, 14.35],
+      "to": [11.75, 9, 15.55],
+      "faces": {
+        "north": {"uv": [14, 6, 16, 8], "texture": "#brass"},
+        "south": {"uv": [14, 6, 16, 8], "texture": "#brass"},
+        "east": {"uv": [14, 6, 16, 8], "texture": "#brass"},
+        "west": {"uv": [14, 6, 15, 8], "texture": "#brass"},
+        "up": {"uv": [14, 6, 16, 8], "texture": "#brass"},
+        "down": {"uv": [14, 6, 16, 8], "texture": "#brass"}
+      }
+    }
+  ]
+}

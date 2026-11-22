@@ -1,0 +1,130 @@
+{
+  "credit": "Create: Air Logistics - Pathfinder Propeller housing with empty brass chart cradle (clip open)",
+  "parent": "minecraft:block/block",
+  "textures": {
+    "brass": "create:block/brass_casing",
+    "gear": "create:block/brass_gearbox",
+    "andesite": "create:block/andesite_casing",
+    "axis_top": "create:block/axis_top",
+    "particle": "create:block/brass_casing",
+    "back_port": "create_air_logistics:block/pathfinder_propeller_back",
+    "frame": "create_air_logistics:block/chart_frame",
+    "cradle": "create_air_logistics:block/chart_cradle"
+  },
+  "elements": [
+    {
+      "name": "rear_mount",
+      "from": [0, 0, 12],
+      "to": [16, 16, 16],
+      "faces": {
+        "east": {"uv": [0, 0, 4, 16], "texture": "#brass", "cullface": "east"},
+        "south": {"uv": [0, 0, 16, 16], "texture": "#back_port", "cullface": "south"},
+        "west": {"uv": [12, 0, 16, 16], "texture": "#brass", "cullface": "west"},
+        "up": {"uv": [0, 12, 16, 16], "texture": "#brass", "cullface": "up"},
+        "down": {"uv": [0, 0, 16, 4], "texture": "#brass", "cullface": "down"}
+      }
+    },
+    {
+      "name": "rear_mount_front_trim",
+      "from": [0, 0, 11],
+      "to": [16, 16, 12],
+      "faces": {
+        "north": {"uv": [0, 0, 16, 16], "texture": "#brass"},
+        "east": {"uv": [1, 0, 2, 16], "texture": "#brass", "cullface": "east"},
+        "west": {"uv": [1, 0, 2, 16], "texture": "#brass", "cullface": "west"},
+        "up": {"uv": [0, 1, 16, 2], "texture": "#brass", "cullface": "up"},
+        "down": {"uv": [0, 1, 16, 2], "texture": "#brass", "cullface": "down"}
+      }
+    },
+    {
+      "name": "nacelle",
+      "from": [2, 2, 3],
+      "to": [14, 14, 11],
+      "faces": {
+        "north": {"uv": [2, 2, 14, 14], "texture": "#andesite"},
+        "east": {"uv": [5, 2, 13, 14], "texture": "#andesite"},
+        "west": {"uv": [3, 2, 11, 14], "texture": "#andesite"},
+        "up": {"uv": [2, 3, 14, 11], "texture": "#andesite"},
+        "down": {"uv": [2, 5, 14, 13], "texture": "#andesite"}
+      }
+    },
+    {
+      "name": "front_bearing",
+      "from": [4, 4, 0],
+      "to": [12, 12, 3],
+      "faces": {
+        "north": {"uv": [4, 4, 12, 12], "texture": "#gear"},
+        "east": {"uv": [13, 4, 16, 12], "texture": "#brass"},
+        "west": {"uv": [0, 4, 3, 12], "texture": "#brass"},
+        "up": {"uv": [4, 0, 12, 3], "texture": "#brass"},
+        "down": {"uv": [4, 13, 12, 16], "texture": "#brass"}
+      }
+    },
+    {
+      "name": "cradle_front_lip",
+      "from": [3, 13, 2],
+      "to": [13, 15, 3],
+      "faces": {
+        "north": {"uv": [3, 1, 13, 3], "texture": "#frame"},
+        "east": {"uv": [0, 1, 1, 3], "texture": "#frame"},
+        "south": {"uv": [3, 1, 13, 2], "texture": "#frame"},
+        "west": {"uv": [15, 1, 16, 3], "texture": "#frame"},
+        "up": {"uv": [3, 0, 13, 1], "texture": "#frame"},
+        "down": {"uv": [3, 3, 13, 4], "texture": "#frame"}
+      }
+    },
+    {
+      "name": "cradle_rail_west",
+      "from": [3, 14, 3],
+      "to": [4, 15, 11],
+      "faces": {
+        "east": {"uv": [4, 1, 12, 2], "texture": "#frame"},
+        "west": {"uv": [4, 1, 12, 2], "texture": "#frame"},
+        "up": {"uv": [4, 0, 12, 1], "rotation": 90, "texture": "#frame"}
+      }
+    },
+    {
+      "name": "cradle_rail_east",
+      "from": [12, 14, 3],
+      "to": [13, 15, 11],
+      "faces": {
+        "east": {"uv": [4, 1, 12, 2], "texture": "#frame"},
+        "west": {"uv": [4, 1, 12, 2], "texture": "#frame"},
+        "up": {"uv": [4, 0, 12, 1], "rotation": 90, "texture": "#frame"}
+      }
+    },
+    {
+      "name": "cradle_bed",
+      "from": [4, 14, 3],
+      "to": [12, 14.25, 11],
+      "faces": {
+        "up": {"uv": [0, 0, 16, 16], "texture": "#cradle"}
+      }
+    },
+    {
+      "name": "chart_clip_hinge",
+      "from": [5, 14.5, 10],
+      "to": [11, 15.5, 11],
+      "faces": {
+        "north": {"uv": [5, 1, 11, 2], "texture": "#frame"},
+        "east": {"uv": [0, 1, 1, 2], "texture": "#frame"},
+        "west": {"uv": [15, 1, 16, 2], "texture": "#frame"},
+        "up": {"uv": [5, 0, 11, 1], "texture": "#frame"},
+        "down": {"uv": [5, 3, 11, 4], "texture": "#frame"}
+      }
+    },
+    {
+      "name": "chart_clip_open",
+      "from": [6, 15.25, 8],
+      "to": [10, 15.5, 10],
+      "rotation": {"angle": 22.5, "axis": "x", "origin": [8, 15.5, 10]},
+      "faces": {
+        "north": {"uv": [6, 1, 10, 1.25], "texture": "#frame"},
+        "east": {"uv": [0, 1, 2, 1.25], "texture": "#frame"},
+        "west": {"uv": [14, 1, 16, 1.25], "texture": "#frame"},
+        "up": {"uv": [6, 0, 10, 2], "texture": "#frame"},
+        "down": {"uv": [6, 2, 10, 4], "texture": "#frame"}
+      }
+    }
+  ]
+}

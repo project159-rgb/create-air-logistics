@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "create:andesite_casing",
+    "create:copper_casing",
+    "create:brass_casing",
+    "create_air_logistics:ship_port",
+    "create_air_logistics:pathfinder_propeller"
+  ]
+}

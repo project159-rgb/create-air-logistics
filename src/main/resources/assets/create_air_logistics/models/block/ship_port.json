@@ -1,0 +1,102 @@
+{
+  "credit": "Create: Air Logistics - Ship Port (Create texture atlas)",
+  "parent": "minecraft:block/block",
+  "textures": {
+    "rail": "create:block/brass_casing",
+    "psi": "create:block/portable_storage_interface",
+    "brass": "create:block/brass_casing",
+    "particle": "create:block/brass_casing"
+  },
+  "elements": [
+    {
+      "name": "hull_body",
+      "from": [0, 0, 2],
+      "to": [16, 16, 16],
+      "faces": {
+        "east": {"uv": [0, 0, 14, 16], "texture": "#rail", "cullface": "east"},
+        "south": {"uv": [0, 0, 16, 16], "texture": "#rail", "cullface": "south"},
+        "west": {"uv": [2, 0, 16, 16], "texture": "#rail", "cullface": "west"},
+        "up": {"uv": [0, 2, 16, 16], "texture": "#rail", "cullface": "up"},
+        "down": {"uv": [0, 0, 16, 14], "texture": "#rail", "cullface": "down"}
+      }
+    },
+    {
+      "name": "recessed_socket",
+      "from": [0.75, 0.75, 1.45],
+      "to": [15.25, 15.25, 2],
+      "faces": {
+        "north": {"uv": [8.5, 8.5, 15.5, 15.5], "texture": "#psi"}
+      }
+    },
+    {
+      "name": "frame_top",
+      "from": [0, 15.25, -1],
+      "to": [16, 16, 2],
+      "faces": {
+        "north": {"uv": [0, 0, 16, 0.75], "texture": "#rail"},
+        "east": {"uv": [0, 0, 3, 0.75], "texture": "#rail"},
+        "west": {"uv": [13, 0, 16, 0.75], "texture": "#rail"},
+        "up": {"uv": [0, 0, 16, 3], "texture": "#rail"},
+        "down": {"uv": [0, 13, 16, 16], "texture": "#rail"}
+      }
+    },
+    {
+      "name": "frame_bottom",
+      "from": [0, 0, -1],
+      "to": [16, 0.75, 2],
+      "faces": {
+        "north": {"uv": [0, 15.25, 16, 16], "texture": "#rail"},
+        "east": {"uv": [13, 15.25, 16, 16], "texture": "#rail"},
+        "west": {"uv": [0, 15.25, 3, 16], "texture": "#rail"},
+        "up": {"uv": [0, 0, 16, 3], "texture": "#rail"},
+        "down": {"uv": [0, 13, 16, 16], "texture": "#rail"}
+      }
+    },
+    {
+      "name": "frame_left",
+      "from": [15.25, 0.75, -1],
+      "to": [16, 15.25, 2],
+      "faces": {
+        "north": {"uv": [0, 0.75, 0.75, 15.25], "texture": "#rail"},
+        "east": {"uv": [13, 0.75, 16, 15.25], "texture": "#rail"},
+        "west": {"uv": [0, 0.75, 3, 15.25], "texture": "#rail"}
+      }
+    },
+    {
+      "name": "frame_right",
+      "from": [0, 0.75, -1],
+      "to": [0.75, 15.25, 2],
+      "faces": {
+        "north": {"uv": [15.25, 0.75, 16, 15.25], "texture": "#rail"},
+        "east": {"uv": [13, 0.75, 16, 15.25], "texture": "#rail"},
+        "west": {"uv": [0, 0.75, 3, 15.25], "texture": "#rail"}
+      }
+    },
+    {
+      "name": "clamp_receiver_left",
+      "from": [14.75, 6.25, -1.5],
+      "to": [16, 9.75, -1],
+      "faces": {
+        "north": {"uv": [0, 6.25, 1.25, 9.75], "texture": "#brass"},
+        "south": {"uv": [14.75, 6.25, 16, 9.75], "texture": "#brass"},
+        "east": {"uv": [0, 6.25, 0.5, 9.75], "texture": "#brass"},
+        "west": {"uv": [0, 6.25, 0.5, 9.75], "texture": "#brass"},
+        "up": {"uv": [14.75, 0, 16, 0.5], "texture": "#brass"},
+        "down": {"uv": [14.75, 0, 16, 0.5], "texture": "#brass"}
+      }
+    },
+    {
+      "name": "clamp_receiver_right",
+      "from": [0, 6.25, -1.5],
+      "to": [1.25, 9.75, -1],
+      "faces": {
+        "north": {"uv": [14.75, 6.25, 16, 9.75], "texture": "#brass"},
+        "south": {"uv": [0, 6.25, 1.25, 9.75], "texture": "#brass"},
+        "east": {"uv": [0, 6.25, 0.5, 9.75], "texture": "#brass"},
+        "west": {"uv": [0, 6.25, 0.5, 9.75], "texture": "#brass"},
+        "up": {"uv": [0, 0, 1.25, 0.5], "texture": "#brass"},
+        "down": {"uv": [0, 0, 1.25, 0.5], "texture": "#brass"}
+      }
+    }
+  ]
+}
